@@ -1,0 +1,13 @@
+name = "exam-api"
+main = "src/main.py"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["python_workers"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "exam-db"
+database_id = "a9bcd002-4964-4523-a420-8e0d391512a8"
+
+[[routes]]
+pattern = "examapi.qoldo.ir/*"
+zone_name = "qoldo.ir"

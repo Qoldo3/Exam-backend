@@ -54,10 +54,14 @@ htmlcov/
 pytest.xml
 coverage.xml
 
+# --- Cloudflare / wrangler local state ---
+.wrangler/
+
 # --- Logs & runtime ---
 *.log
 *.pid
 uv.lock
+.uv.pid
 
 # --- Editor / OS ---
 .vscode/
